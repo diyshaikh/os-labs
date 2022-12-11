@@ -1,0 +1,5 @@
+1: cp a.txt b.txt >> outfile
+2: cat a.txt | grep "[a-z][a-z][a-z][a-z]"
+3: chmod u=w test ;chmod o-x test
+4: alias ls="ls -A"
+5: wc -m test
